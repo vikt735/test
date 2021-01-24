@@ -1,0 +1,17 @@
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 1em;
+}
+.tab {
+  padding: 1.5em 1.8em;
+  cursor: pointer;
+}
+.tab_content {
+  padding: 0.5em 2em;
+  
+}
+.wrapper .active { 
+  background-color: var(--color-nav, #5F6A7D); 
+  color: var(--colorWhite, #ffffff);
+}

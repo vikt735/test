@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorWhite, #ffffff)!important;
+  
+  &__link {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__img {
+    max-height: 12.8em;
+    max-width: 23em;
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorWhite, #ffffff);
+  &__link {
+    padding: 1em 2em;
+  }
+  &__bg {
+    background-color: var(--color);
+  }
+}

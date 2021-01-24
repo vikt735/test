@@ -1,0 +1,10 @@
+.header {
+  border-bottom: 0.4em solid #5F6A7D;
+  @media (min-width: 62em) {
+    min-height: 6.25em;
+  }
+  &__logo {
+    max-width: 13.75em;
+    max-height: 4.125em;
+  }
+}
